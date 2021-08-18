@@ -1,0 +1,258 @@
+.makeup_text button:hover {
+    background: rgba(0, 0, 0, 0.4);
+    color: rgb(255, 255, 255);
+    transition: all 0.5s ease-in;
+
+}
+
+.makeup {
+    margin-top: $margin-top;
+    margin-left: $margin-left;
+    margin-right: $margin-right;
+}
+
+.makeup__title {
+    text-align: center;
+    font-size: $titlesize;
+    font-family: $titleFont;
+    margin-bottom: 50px;
+}
+
+.makeup__block {
+    display: flex;
+}
+
+.makeup__block img {
+    width: 30vw;
+    height: 50%;
+
+}
+
+.makeup_text {
+    padding: 0 0 0 30px;
+    font-size: $textsize;
+    font-family: $mainFont;
+    color: $maincolor;
+}
+
+.makeup_text_1 {
+    margin-top: 0;
+}
+
+.makeup_text ul {
+    padding-bottom: 32px;
+}
+
+.makeup_text p {
+    padding-bottom: 30px;
+}
+
+.makeup_text button {
+    display: block;
+    height: 70px;
+    width: 200px;
+    margin: 0px auto;
+    background: white;
+    border: 1px solid grey;
+    margin-top: 50px;
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1280px) {
+    .makeup_text button {
+        display: block;
+        height: 50px;
+        width: 200px;
+        margin: 0px auto;
+        background: white;
+        border: 1px solid grey;
+        margin-top: 0px;
+    }
+
+    .makeup_text p {
+        padding-bottom: 20px;
+    }
+
+
+    .makeup_text ul {
+        padding-bottom: 0px;
+    }
+}
+
+@media only screen and (min-width: 801px) and (max-width: 1100px) {
+    .makeup {
+        margin-top: $marginM1023-top;
+        margin-left: $marginM1023-left;
+        margin-right: $marginM1023-right;
+    }
+
+    .makeup__title {
+        margin:
+            50px 0 50px 0;
+        text-align: center;
+        font-size: $titleMPsize;
+    }
+
+    .makeup__block img {
+        width: 40vw;
+        margin-left: 0px;
+        margin-right: 0px;
+
+
+    }
+
+    .makeup_text {
+        padding: 0 10px 0 30px;
+        font-size: $textM1023size;
+    }
+
+    .makeup_text ul {
+        padding-bottom: 32px;
+
+    }
+
+    .makeup_text p {
+        padding-bottom: 30px;
+    }
+
+    .makeup_text button {
+        display: block;
+        height: 70px;
+        width: 180px;
+        margin: 0px auto;
+        background: white;
+        border: 1px solid grey;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (min-width: 479px) and (max-width: 800px) {
+    .makeup {
+        margin-top: $marginM767-top;
+        margin-left: $marginM767-left;
+        margin-right: $marginM767-right;
+    }
+
+    .makeup__block {
+        display: block;
+    }
+
+    .makeup__title {
+        margin-bottom: 10px;
+        margin-top: 40px;
+        text-align: center;
+        font-size: $titleMsize;
+    }
+
+    .makeup__block img {
+        display: none;
+
+
+    }
+
+    .makeup_text {
+        padding: 20px 0px 20px 0px;
+        font-size: $textM767size;
+    }
+
+    .makeup_text ul {
+        padding-bottom: 32px;
+
+    }
+
+    .makeup_text p {
+        padding-bottom: 30px;
+    }
+
+
+    .makeup_text button {
+        display: block;
+        height: 50px;
+        width: 200px;
+        margin: 0px auto;
+        background: white;
+        border: 1px solid grey;
+        margin-top: 0px;
+    }
+
+    .makeup_text p {
+        padding-bottom: 20px;
+    }
+
+
+    .makeup_text ul {
+        padding-bottom: 0px;
+    }
+
+}
+
+@media screen and (max-width: 478px) {
+    .makeup {
+        margin-top: $marginM478-top;
+        margin-left: $marginM478-left;
+        margin-right: $marginM478-right;
+
+    }
+
+    .makeup__block {
+        display: block;
+    }
+
+    .makeup__title {
+        margin: 30px 0 30px 0;
+        text-align: center;
+        font-size: $titleMsize;
+        padding: 10px 0 0 0;
+    }
+
+    .makeup__block img {
+        display: none;
+
+
+    }
+
+    .makeup_text {
+        padding-left: 0px;
+        padding-right: 0px;
+        font-size: $textM478size;
+    }
+
+    .makeup_text ul {
+        padding-bottom: 32px;
+
+
+    }
+
+    .makeup_text p {
+        padding-bottom: 30px;
+    }
+
+
+    .makeup_text button {
+        display: block;
+        height: 50px;
+        width: 200px;
+        margin: 0px auto;
+        background: white;
+        border: 1px solid grey;
+        margin-top: 0px;
+    }
+
+    .makeup_text p {
+        padding-bottom: 20px;
+    }
+
+
+    .makeup_text ul {
+        padding-bottom: 0px;
+    }
+
+    .makeup_text button {
+        display: block;
+        height: 50px;
+        width: 120px;
+        margin: 0px auto;
+        background: white;
+        border: 1px solid grey;
+        margin-top: 10px;
+    }
+}

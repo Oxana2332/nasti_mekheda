@@ -1,0 +1,102 @@
+/*контейнер*/
+.firstblog {
+    margin-top: $margin-top;
+    margin-left: $margin-left;
+    margin-right: $margin-right;
+}
+
+
+/*заголовок*/
+.firstblog__title {
+    text-align: center;
+    font-family: $mainFont;
+    font-weight: bold;
+    font-size: $titlesize;
+    color: $maincolor;
+    margin-top: $margin-top;
+    padding-top: $padding-top;
+}
+
+/*блок 2*/
+.firstblog__two {
+    display: flex;
+    flex-direction: row;
+    margin-top: $margin-top;
+}
+
+.firstblog__two_image {
+    width: 20%;
+    height: 20%;
+}
+
+.firstblog__two_text {
+    text-align: center;
+    font-family: $mainFont;
+    font-size: $textsize;
+    color: $maincolor;
+    margin-left: $margin-left;
+}
+
+/*2 картинки внизу*/
+.firstblog__image {
+    width: 28.5%;
+    margin-left: $margin-left;
+    margin-top: $margin-top;
+    margin-bottom: $margin-top;
+}
+
+@media screen and (max-width: 939px) {
+
+
+    /*контейнер*/
+    .firstblog {
+        margin-left: $marginM1023-left;
+        margin-right: $marginM1023-right;
+        margin-top: $marginM1023-top;
+    }
+}
+
+
+/*заголовок*/
+@media screen and (max-width: 939px) {
+    .firstblog__title {
+        font-size: $textM767size;
+        margin-top: $marginM1023-top;
+        padding-top: $paddingM-top;
+    }
+}
+
+/*блок 2*/
+@media screen and (max-width: 939px) {
+    .firstblog__two {
+        display: flex;
+        flex-direction: column;
+        margin-top: $marginM1023-top;
+    }
+}
+
+/*стили картинки блока 2*/
+@media screen and (max-width: 939px) {
+    .firstblog__two_image {
+        width: 98%;
+        margin: 1%;
+    }
+}
+
+/*стили текста 2 блока*/
+@media screen and (max-width: 939px) {
+    .firstblog__two_text {
+        font-size: $textM767size;
+        margin-top: $marginM1023-top;
+        margin-left: $marginM1023-left;
+        margin-right: $marginM1023-right;
+    }
+}
+
+/*2 картинки внизу*/
+@media screen and (max-width: 939px) {
+    .firstblog__image {
+        width: 98%;
+        margin: 1%;
+    }
+}

@@ -1,0 +1,68 @@
+.slaid3 {
+    margin-top: 100px;
+    background: url(/assets/slaid3/img/slaid3.jpg) 0 0/100% auto no-repeat;
+    height: 700px;
+    position: relative
+}
+
+.slaid3__text {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    font-size: $slaid1size;
+    letter-spacing: $lettersize;
+    font-family: $slaid1Font;
+
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .slaid3 {
+        margin-top: 80px;
+        height: 450px;
+        position: relative;
+    }
+
+    .slaid3__text {
+        position: absolute;
+        top: 5%;
+        left: 40%;
+        letter-spacing: $lettersize;
+        font-size: $slaid1Psize;
+    }
+
+}
+
+@media screen and (min-width: 479px) and (max-width: 767px) {
+    .slaid3 {
+        margin-top: 60px;
+        height: 270px;
+        position: relative;
+    }
+
+    .slaid3__text {
+        position: absolute;
+        top: 5%;
+        left: 50%;
+        font-size: $slaid1Msize;
+        letter-spacing: $letterMsize;
+    }
+}
+
+@media screen and (max-width: 478px) {
+    .slaid3 {
+        margin-top: 60px;
+        height: 180px;
+        position: relative;
+    }
+
+    .slaid3__text {
+        position: absolute;
+        top: 0;
+        left: 50%;
+
+        font-size: $slaid1Msize;
+        letter-spacing: $letterMsize;
+
+    }
+}

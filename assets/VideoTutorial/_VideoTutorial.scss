@@ -1,0 +1,189 @@
+.videoTutorial__link:hover {
+    color: rgb(196, 80, 80);
+}
+
+/*контейнер видеоблока*/
+.videoTutorial {
+    margin-left: $margin-left;
+    margin-right: $margin-right;
+    margin-top: 10px;
+}
+
+
+/*Заголовок*/
+.videoTutorial__title {
+    font-family: $titleFont;
+    font-size: $titlesize;
+    text-align: center;
+    color: $maincolor;
+}
+
+/*контейнер файлов видео*/
+.videoTutorial__video {
+    display: flex;
+    justify-content: center;
+    margin-top: $margin-top;
+}
+
+/*стили видео*/
+.videoTutorial__video_mp4 {
+    width: 30%;
+    height: 3%;
+    margin-right: 25px;
+}
+
+/*блок для ссылок на Ютуб*/
+.videoTutorial__more {
+    padding-top: 20px;
+    margin-right: 40px;
+}
+
+/*стили ссылкм на Ютуб*/
+.videoTutorial__link {
+    font-weight: bold;
+    font-size: $linksize;
+    color: $linkcolor;
+    font-family: $mainFont;
+    text-decoration: none;
+    float: right;
+
+
+
+}
+
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    /*контейнер видеоблока*/
+    .videoTutorial {
+        margin-top: $marginM1023-top;
+        margin-left: $marginM1023-left;
+        margin-right: $marginM1023-right;
+    }
+
+
+    /*Заголовок*/
+    .videoTutorial__title {
+        text-align: center;
+        font-size: $titleMPsize;
+        color: $maincolor;
+
+    }
+
+    /*контейнер файлов видео*/
+    .videoTutorial__video {
+        display: flex;
+        justify-content: center;
+        margin-top: $marginM1023-top;
+    }
+
+    /*стили видео*/
+    .videoTutorial__video_mp4 {
+        width: 32%;
+        height: 3%;
+        margin: 1%;
+    }
+
+    /*блок для ссылок на Ютуб*/
+    .videoTutorial__more {
+        padding-top: 15px;
+        margin-right: 10px;
+    }
+
+    /*стили ссылкм на Ютуб*/
+    .videoTutorial__link {
+        font-size: $linkMPsize;
+
+    }
+}
+
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+
+    /*контейнер видеоблока*/
+    .videoTutorial {
+        margin-top: $marginM767-top;
+        margin-left: $marginM767-left;
+        margin-right: $marginM767-right;
+    }
+
+
+    /*Заголовок*/
+    .videoTutorial__title {
+        text-align: center;
+        font-size: $titleMsize;
+        color: $maincolor;
+    }
+
+    /*контейнер файлов видео*/
+    .videoTutorial__video {
+        display: flex;
+        justify-content: center;
+        margin-top: $marginM767-top;
+    }
+
+    /*стили видео*/
+    .videoTutorial__video_mp4 {
+        width: 31%;
+        height: 3%;
+        margin: 1%;
+    }
+
+    /*блок для ссылок на Ютуб*/
+    .videoTutorial__more {
+        padding-top: 10px;
+        margin-right: 10px;
+    }
+
+    /*стили ссылкм на Ютуб*/
+    .videoTutorial__link {
+        font-size: $linkMsize;
+
+    }
+}
+
+
+@media screen and (max-width: 479px) {
+
+    /*контейнер видеоблока*/
+    .videoTutorial {
+        margin-top: $marginM478-top;
+        margin-left: $marginM478-left;
+        margin-right: $marginM478-right;
+    }
+
+    /*заголовок*/
+    .videoTutorial__title {
+        font-size: $titleMsize;
+
+    }
+
+    /*контейнер файлов видео*/
+    .videoTutorial__video {
+        display: block;
+        margin-top: $marginM478-top;
+    }
+
+    /*стили видео*/
+    .videoTutorial__video_mp4 {
+        width: 98%;
+        height: 30.9%;
+        margin: 1%;
+
+    }
+
+    /*блок для ссылок на Ютуб*/
+    .videoTutorial__more {
+        padding-top: 10px;
+        margin-right: 10px;
+    }
+
+    /*стили ссылкм на Ютуб*/
+    .videoTutorial__link {
+        font-size: $linkMsize;
+
+    }
+}
