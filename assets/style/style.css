@@ -664,7 +664,7 @@ body {
 
 .slaid1 {
   margin-top: 100px;
-  background: url(./images/IMG_2731-1a.jpg) 0 0/100% auto no-repeat;
+  background: url(/assets/slaid1/images/IMG_2731-1a.jpg) 0 0/100% auto no-repeat;
   -o-object-fit: cover;
      object-fit: cover;
   height: 700px;
@@ -1099,9 +1099,20 @@ body {
   width: auto;
 }
 
+/*ссылка назад*/
+.link__backPortfolio {
+  text-decoration: none;
+  font-family: "L&C";
+  font-weight: bold;
+  font-size: 1em;
+  color: black;
+  margin-top: 50px;
+  margin-left: 200px;
+}
+
 @media screen and (max-width: 939px) {
   /*ссылка назад*/
-  .link__blog {
+  .link__backPortfolio {
     font-size: 0.6em;
     margin-top: 20px;
   }
@@ -1363,20 +1374,22 @@ body {
 }
 
 /*ссылка назад*/
-.link__blog {
+.link__backPortfolio {
   text-decoration: none;
   font-family: "L&C";
   font-weight: bold;
   font-size: 1em;
   color: black;
   margin-top: 50px;
+  margin-left: 200px;
 }
 
 @media screen and (max-width: 939px) {
   /*ссылка назад*/
-  .link__blog {
+  .link__backPortfolio {
     font-size: 0.6em;
     margin-top: 20px;
+    margin-left: 0px;
   }
 }
 
@@ -1436,6 +1449,16 @@ body {
   width: auto;
 }
 
+/*ссылка назад*/
+.link__backPortfolio {
+  text-decoration: none;
+  font-family: "L&C";
+  font-weight: bold;
+  font-size: 1em;
+  color: black;
+  margin-top: 50px;
+}
+
 @media screen and (max-width: 478px) {
   .beauty {
     margin-top: 80px;
@@ -1445,6 +1468,11 @@ body {
   .beauty img {
     width: 50vw;
     height: auto;
+  }
+  /*ссылка назад*/
+  .link__backPortfolio {
+    font-size: 0.6em;
+    margin-top: 20px;
   }
 }
 

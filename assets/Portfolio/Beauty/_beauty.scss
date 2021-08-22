@@ -61,6 +61,15 @@
 
 }
 
+/*ссылка назад*/
+.link__backPortfolio {
+    text-decoration: none;
+    font-family: $blogFont;
+    font-weight: bold;
+    font-size: $linksize;
+    color: black;
+    margin-top: $margin-top;
+}
 
 @media screen and (max-width: 478px) {
 
@@ -75,5 +84,9 @@
         height: auto;
     }
 
-
+/*ссылка назад*/
+.link__backPortfolio {
+    font-size: $linkMsize;
+    margin-top: $marginM1023-top;
+}
 }
