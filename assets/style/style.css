@@ -664,7 +664,7 @@ body {
 
 .slaid1 {
   margin-top: 100px;
-  background: url(/assets/slaid1/images/IMG_2731-1a.jpg) 0 0/100% auto no-repeat;
+  background: url(../slaid1/images/IMG_2731-1a.jpg) 0 0/100% auto no-repeat;
   -o-object-fit: cover;
      object-fit: cover;
   height: 700px;
@@ -1086,12 +1086,12 @@ body {
 
 .backstageslider .slick-arrow.slick-prev {
   left: 10%;
-  background: url(/assets/Portfolio/image/left.svg) 0 0/100% no-repeat;
+  background: url(../image/left.svg) 0 0/100% no-repeat;
 }
 
 .backstageslider .slick-arrow.slick-next {
   right: 10%;
-  background: url(/assets/Portfolio/image/right.svg) 0 0/100% no-repeat;
+  background: url(../image/right.svg) 0 0/100% no-repeat;
 }
 
 .backstage img {
@@ -1350,12 +1350,12 @@ body {
 
 .brideslider .slick-arrow.slick-prev {
   left: 0;
-  background: url(/assets/Portfolio/image/left.svg) 0 0/100% no-repeat;
+  background: url(../image/left.svg) 0 0/100% no-repeat;
 }
 
 .brideslider .slick-arrow.slick-next {
   right: 0;
-  background: url(/assets/Portfolio/image/right.svg) 0 0/100% no-repeat;
+  background: url(../image/right.svg) 0 0/100% no-repeat;
 }
 
 .bride img {
@@ -2664,7 +2664,7 @@ video {
 
 .slaid3 {
   margin-top: 100px;
-  background: url(/assets/slaid3/img/slaid3.jpg) 0 0/100% auto no-repeat;
+  background: url(../slaid3/img/slaid3.jpg) 0 0/100% auto no-repeat;
   height: 700px;
   position: relative;
 }
@@ -2859,7 +2859,7 @@ video {
 
 .footer {
   margin-top: 20px;
-  background: url(/assets/footer/img/footer2.jpg);
+  background: url(../footer/img/footer2.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
 }

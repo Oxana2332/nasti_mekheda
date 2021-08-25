@@ -44,12 +44,12 @@
 
 .brideslider .slick-arrow.slick-prev {
     left: 0;
-    background: url(/assets/Portfolio/image/left.svg) 0 0/100% no-repeat;
+    background: url(../image/left.svg) 0 0/100% no-repeat;
 }
 
 .brideslider .slick-arrow.slick-next {
     right: 0;
-    background: url(/assets/Portfolio/image/right.svg) 0 0/100% no-repeat;
+    background: url(../image/right.svg) 0 0/100% no-repeat;
 }
 
 .bride img {
@@ -77,8 +77,6 @@
 }
 
 @media screen and (max-width: 939px) {
-
-
     /*ссылка назад*/
     .link__backPortfolio {
         font-size: $linkMsize;
