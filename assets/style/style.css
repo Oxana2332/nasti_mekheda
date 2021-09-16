@@ -1116,6 +1116,24 @@ body {
     font-size: 0.6em;
     margin-top: 20px;
   }
+  .backstage {
+    margin-top: 120px;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /*ссылка назад*/
+  .link__backPortfolio {
+    font-size: 0.6em;
+    margin-top: 20px;
+  }
+  .backstage {
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
 }
 
 /*контейнер галереи*/
@@ -1389,7 +1407,56 @@ body {
   .link__backPortfolio {
     font-size: 0.6em;
     margin-top: 20px;
-    margin-left: 0px;
+    margin-left: 20px;
+  }
+  .bride {
+    margin-top: 120px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /*ссылка назад*/
+  .link__backPortfolio {
+    font-size: 0.6em;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  .bride {
+    margin-top: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .bride__text {
+    -ms-grid-column-align: center;
+        justify-self: center;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    width: 100%;
+    padding: 0 20px 0 0;
+  }
+  .brideslider {
+    width: 100%;
+    position: relative;
   }
 }
 
@@ -1436,12 +1503,12 @@ body {
 
 .beautyslider .slick-arrow.slick-prev {
   left: 0;
-  background: url(/assets/Portfolio/image/left.svg) 0 0/100% no-repeat;
+  background: url(../image/left.svg) 0 0/100% no-repeat;
 }
 
 .beautyslider .slick-arrow.slick-next {
   right: 0;
-  background: url(/assets/Portfolio/image/right.svg) 0 0/100% no-repeat;
+  background: url(../image/right.svg) 0 0/100% no-repeat;
 }
 
 .beauty img {
@@ -1459,7 +1526,7 @@ body {
   margin-top: 50px;
 }
 
-@media screen and (max-width: 478px) {
+@media screen and (max-width: 767px) {
   .beauty {
     margin-top: 80px;
     margin-right: 10px;

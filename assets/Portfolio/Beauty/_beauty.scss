@@ -47,12 +47,12 @@
 
 .beautyslider .slick-arrow.slick-prev {
     left: 0;
-    background: url(/assets/Portfolio/image/left.svg) 0 0/100% no-repeat;
+    background: url(../image/left.svg) 0 0/100% no-repeat;
 }
 
 .beautyslider .slick-arrow.slick-next {
     right: 0;
-    background: url(/assets/Portfolio/image/right.svg) 0 0/100% no-repeat;
+    background: url(../image/right.svg) 0 0/100% no-repeat;
 }
 
 .beauty img {
@@ -71,7 +71,7 @@
     margin-top: $margin-top;
 }
 
-@media screen and (max-width: 478px) {
+@media screen and (max-width: 767px) {
 
     .beauty {
         margin-top: 80px;

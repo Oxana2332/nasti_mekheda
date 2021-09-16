@@ -23,7 +23,6 @@
 
 .slick-track {
     display: flex;
-
 }
 
 .slick-list {
@@ -68,11 +67,29 @@
 
 
 @media screen and (max-width: 939px) {
-
-
     /*ссылка назад*/
     .link__backPortfolio {
         font-size: $linkMsize;
         margin-top: $marginM1023-top;
+    }
+
+    .backstage {
+        margin-top: 120px;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /*ссылка назад*/
+    .link__backPortfolio {
+        font-size: $linkMsize;
+        margin-top: $marginM1023-top;
+    }
+
+    .backstage {
+        margin-top: 5px;
+        margin-right: 5px;
+        margin-left: 5px;
     }
 }
