@@ -78,6 +78,15 @@
         margin-right: 5px;
         margin-left: 5px;
     }
+    .backstageslider {
+        position: relative;
+        margin-top: 80px;
+    }
+
+    .backstage img {
+        height: 100%;
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 480px) {
