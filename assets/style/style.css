@@ -660,6 +660,10 @@ body {
   .header__logo_desctop {
     display: none;
   }
+  .header__link {
+    text-decoration: none;
+    color: rgba(88, 88, 88, 0.911);
+  }
 }
 
 .slaid1 {

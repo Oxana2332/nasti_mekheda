@@ -112,8 +112,6 @@
         justify-content: space-between;
         align-items: center;
         display: flex;
-
-
     }
 
     .header__logo_mobile {
@@ -218,5 +216,10 @@
 
     .header__logo_desctop {
         display: none;
+    }
+
+    .header__link {
+        text-decoration: none;
+        color: rgba(88, 88, 88, 0.911);
     }
 }
