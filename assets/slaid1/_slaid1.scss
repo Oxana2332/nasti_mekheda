@@ -1,68 +1,65 @@
 .slaid1 {
-    margin-top: 100px;
-    background: url(../slaid1/images/IMG_2731-1a.jpg) 0 0/100% auto no-repeat;
-    object-fit: cover;
-    height: 700px;
-    position: relative;
+	margin-top: 100px;
+	background: url(../slaid1/images/IMG_2731-1a.jpg) 0 0/100% auto no-repeat;
+	object-fit: cover;
+	height: 700px;
+	position: relative;
 }
 
 .slaid1__text {
-    position: absolute;
-    top: 70%;
-    left: 55%;
-    color: $slaid1color;
-    font-family: $slaid1Font;
-    letter-spacing: $lettersize;
-    font-size: $slaid1size;
+	position: absolute;
+	top: 70%;
+	left: 55%;
+	color: $slaid1color;
+	font-family: $slaid1Font;
+	letter-spacing: $lettersize;
+	font-size: $slaid1size;
 }
 
-
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
-    .slaid1 {
-        margin-top: 60px;
-        height: 400px;
-        position: relative;
-    }
+	.slaid1 {
+		margin-top: 60px;
+		height: 400px;
+		position: relative;
+	}
 
-    .slaid1__text {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        letter-spacing: $lettersize;
-        font-size: $slaid1Psize
-    }
-
+	.slaid1__text {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		letter-spacing: $lettersize;
+		font-size: $slaid1Psize;
+	}
 }
 
 @media screen and (min-width: 479px) and (max-width: 767px) {
-    .slaid1 {
-        margin-top: 60px;
-        height: 250px;
-        position: relative;
-    }
+	.slaid1 {
+		margin-top: 60px;
+		height: 250px;
+		position: relative;
+	}
 
-    .slaid1__text {
-        position: absolute;
-        top: 70%;
-        left: 55%;
-        font-size: $slaid1Msize;
-        letter-spacing: $letterMsize;
-    }
+	.slaid1__text {
+		position: absolute;
+		top: 70%;
+		left: 55%;
+		font-size: $slaid1Msize;
+		letter-spacing: $letterMsize;
+	}
 }
 
 @media screen and (max-width: 478px) {
-    .slaid1 {
-        margin-top: 60px;
-        height: 180px;
-        position: relative;
-    }
+	.slaid1 {
+		margin-top: 60px;
+		height: 180px;
+		position: relative;
+	}
 
-    .slaid1__text {
-        position: absolute;
-        top: 50%;
-        left: 45%;
-        font-size: $slaid1Msize;
-        letter-spacing: $letterMsize;
-
-    }
+	.slaid1__text {
+		position: absolute;
+		top: 50%;
+		left: 45%;
+		font-size: $slaid1Msize;
+		letter-spacing: $letterMsize;
+	}
 }
