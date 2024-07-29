@@ -1,36 +1,33 @@
 /*подключение шрифтов*/
 @font-face {
-    font-family: 'Playfair Display';
-    src: url(/assets/fonts/PlayfairDisplay-Regular.ttf);
+	font-family: 'Playfair Display';
+	src: url(/assets/fonts/PlayfairDisplay-Regular.ttf);
 }
 
 @font-face {
-    font-family: 'Montserrat Light';
-    src: url(/assets/fonts/Montserrat-Light.ttf);
+	font-family: 'Montserrat Light';
+	src: url(/assets/fonts/Montserrat-Light.ttf);
 }
 
 @font-face {
-    font-family: 'Cormorant Infant';
-    src: url(/assets/fonts/CormorantInfant-SemiBold.ttf);
+	font-family: 'Cormorant Infant';
+	src: url(/assets/fonts/CormorantInfant-SemiBold.ttf);
 }
 
 @font-face {
-    font-family: 'Mak';
-    src: url(/assets/fonts/Mak.otf);
+	font-family: 'Mak';
+	src: url(/assets/fonts/Mak.otf);
 }
 
 @font-face {
-    font-family: 'L&C';
-    src: url(/assets/fonts/gardens.ttf);
+	font-family: 'L&C';
+	src: url(/assets/fonts/gardens.ttf);
 }
 
 @font-face {
-    font-family: 'Futura';
-    src: url(/assets/fonts/FuturaPT-Book.ttf)
+	font-family: 'Futura';
+	src: url(/assets/fonts/FuturaPT-Book.ttf);
 }
-
-
-
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 
@@ -44,15 +41,13 @@ $mainFont: 'L&C';
 $slaid1Font: 'Cormorant Infant';
 
 /* шрифт блога*/
-$blogFont:'L&C';
+$blogFont: 'L&C';
 
 /*Шрифт заглавия*/
 $titleFont: 'Mak';
 
-
-
 /*цвет текста на 1 слайде*/
-$slaid1color:rgb(223, 221, 221);
+$slaid1color: rgb(223, 221, 221);
 
 /*размер шрифта на слайде компьютерная версия*/
 $slaid1size: 1em;
@@ -74,12 +69,11 @@ $maincolor: black;
 /*цвет шрифта ссылки на ютуб, ссылки на чек-лист вернуться назад блогов*/
 $linkcolor: #3b3b3b;
 
-
 /*размер шрифта хедера компьютерная версия*/
 $headersize: 0.85em;
 
 /*размер шрифта хедера мобильная версия*/
-$headerMsize: 0.6em;
+$headerMsize: 1em;
 
 /*размер шрифта заголовков компьютерная версия*/
 $titlesize: 20px;
@@ -87,7 +81,6 @@ $titlesize: 20px;
 $titleMPsize: 18px;
 /*размер шрифта заголовков мобильная версия*/
 $titleMsize: 14px;
-
 
 /*размер шрифта в блоках компьютерная версия*/
 $textsize: 16px;
@@ -115,15 +108,12 @@ $linkCHsize: 1.4em;
 /*размер шрифта ссылки на чек-лист мобильная версия*/
 $linkCHMsize: 1em;
 
-
 /*размер шрифта в отзывах компьютерная версия*/
 $nameFBsize: 15px;
 /*размер шрифта отзывов мобильная версия*/
 $nameFBMsize: 10px;
 /*размер шрифта отзывов планшетная версия*/
 $nameFBPsize: 13px;
-
-
 
 /*размер отступа слева компьютерная версия*/
 $margin-left: 200px;
@@ -134,8 +124,6 @@ $marginM767-left: 20px;
 /*размер отступа слева мобильная версия max 478px*/
 $marginM478-left: 10px;
 
-
-
 /*размер отступа справа компьютерная версия*/
 $margin-right: 200px;
 /*размер отступа справа мобильная версия max 1023px*/
@@ -145,7 +133,6 @@ $marginM767-right: 20px;
 /*размер отступа справа мобильная версия max 478px*/
 $marginM478-right: 10px;
 
-
 /*размер отступа вверх компьютерная версия*/
 $margin-top: 50px;
 /*размер отступа вверх мобильная версия max 1023px*/
@@ -154,7 +141,6 @@ $marginM1023-top: 20px;
 $marginM767-top: 20px;
 /*размер отступа вверх мобильная версия max 478px*/
 $marginM478-top: 10px;
-
 
 /*отступ вверх от заголовка до хедера в отдельных страничках*/
 $padding-top: 70px;
