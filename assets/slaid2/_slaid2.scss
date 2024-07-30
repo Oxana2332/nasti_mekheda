@@ -68,28 +68,23 @@ video {
 
 @media screen and (max-width: 478px) {
 	.slaid2 {
-		display: none;
+		margin-top: 20px;
+
+		position: relative;
 	}
 
-	// .slaid2 {
-	//     margin-top: 20px;
+	.slaid2__text {
+		position: absolute;
+		top: 80%;
+		left: 5%;
+		right: 35%;
+		font-size: $slaid1Msize;
+		letter-spacing: $letterMsize;
+	}
 
-	//     position: relative;
-	// }
-
-	// .slaid2__text {
-	//     position: absolute;
-	//     top: 80%;
-	//     left: 5%;
-	//     right: 35%;
-	//     font-size: $slaid1Msize;
-	//     letter-spacing: $letterMsize;
-	// }
-
-	// video {
-	//     object-fit: cover;
-	//     width: 100%;
-	//     height: 40vh;
-
-	// }
+	video {
+		object-fit: cover;
+		width: 100%;
+		height: 40vh;
+	}
 }
