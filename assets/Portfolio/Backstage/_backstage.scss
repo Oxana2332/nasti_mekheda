@@ -1,104 +1,87 @@
 .backstage {
-    margin-top: 120px;
-    margin-right: 150px;
-    margin-left: 150px;
+	min-height: calc(100vh - 225px);
+	margin-top: 120px;
+}
+
+#mainImage {
+	display: block;
+	margin: 7% auto 3% auto;
+	width: 50%;
+	border-radius: 8px;
+	box-shadow: 0 12px 24px rgba(0, 0, 0, 0.144),
+		0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
 .backstageslider {
-    width: 100%;
-    position: relative;
-
+	display: flex;
+	justify-content: center;
 }
 
 .backstageslider__item {
-    text-align: center;
-    transition: all 0.5s ease 0s;
-    opacity: 0.4;
-
-}
-
-.backstageslider__item.slick-center {
-    opacity: 1;
-}
-
-.slick-track {
-    display: flex;
-}
-
-.slick-list {
-    overflow: hidden;
-}
-
-.backstageslider .slick-arrow {
-    position: absolute;
-    top: 50%;
-    z-index: 10;
-    font-size: 0;
-    width: 30px;
-    height: 50px;
-
-}
-
-.backstageslider .slick-arrow.slick-prev {
-    left: 10%;
-    background: url(../image/left.svg) 0 0/100% no-repeat;
-}
-
-.backstageslider .slick-arrow.slick-next {
-    right: 10%;
-    background: url(../image/right.svg) 0 0/100% no-repeat;
-}
-
-.backstage img {
-    height: 80vh;
-    width: auto;
+	width: 10%;
+	margin: 0 1%;
+	border-radius: 8px;
+	box-shadow: 0 12px 24px rgba(0, 0, 0, 0.144),
+		0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
 /*ссылка назад*/
 .link__backPortfolio {
-    text-decoration: none;
-    font-family: $mainFont;
-    font-weight: bold;
-    font-size: $linksize;
-    color: $maincolor;
-    margin-top: $margin-top;
-    margin-left: 200px;
+	text-decoration: none;
+	font-family: $mainFont;
+	font-weight: bold;
+	font-size: $linksize;
+	color: $maincolor;
+	margin-top: $margin-top;
+	margin-left: 200px;
 }
 
+@media screen and (min-width: 479px) and (max-width: 1279px) {
+	#mainImage {
+		width: 75%;
+		box-shadow: 0 6px 12px rgba(0, 0, 0, 0.144),
+			0 5px 5px rgba(0, 0, 0, 0.22);
+	}
 
-@media screen and (max-width: 939px) {
-    /*ссылка назад*/
-    .link__backPortfolio {
-        font-size: $linkMsize;
-        margin-top: $marginM1023-top;
-    }
+	.backstageslider {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
 
-    .backstage {
-        margin-top: 120px;
-        margin-right: 5px;
-        margin-left: 5px;
-    }
-    .backstageslider {
-        position: relative;
-        margin-top: 80px;
-    }
-
-    .backstage img {
-        height: 100%;
-        width: 100%;
-    }
+	.backstageslider__item {
+		margin-top: 5%;
+		width: 30%;
+	}
 }
 
 @media screen and (max-width: 480px) {
-    /*ссылка назад*/
-    .link__backPortfolio {
-        font-size: $linkMsize;
-        margin-top: $marginM1023-top;
-    }
+	.backstage {
+		margin-top: 100px;
+		margin-right: 1px;
+		margin-left: 1px;
+	}
 
-    .backstage {
-        margin-top: 5px;
-        margin-right: 5px;
-        margin-left: 5px;
-    }
+	#mainImage {
+		width: 90%;
+		box-shadow: 0 6px 12px rgba(0, 0, 0, 0.144),
+			0 5px 5px rgba(0, 0, 0, 0.22);
+	}
+
+	.backstageslider {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.backstageslider__item {
+		margin-top: 5%;
+		width: 45%;
+	}
+
+	/*ссылка назад*/
+	.link__backPortfolio {
+		font-size: $linkMsize;
+		margin-top: $marginM1023-top;
+	}
 }
