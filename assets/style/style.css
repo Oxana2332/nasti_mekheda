@@ -611,7 +611,7 @@ body {
 }
 .slaid1 {
   margin-top: 100px;
-  background: url(../slaid1/images/IMG_2731-1a.jpg) 0 0/100% auto no-repeat;
+  background: url(../slaid1/images/1.jpg) 0 0/100% auto no-repeat;
   -o-object-fit: cover;
      object-fit: cover;
   height: 700px;
@@ -631,6 +631,7 @@ body {
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   .slaid1 {
     margin-top: 60px;
+    background: url(../slaid1/images/2.jpg) 0 0/100% auto no-repeat;
     height: 400px;
     position: relative;
   }
@@ -645,6 +646,7 @@ body {
 @media screen and (min-width: 479px) and (max-width: 767px) {
   .slaid1 {
     margin-top: 60px;
+    background: url(../slaid1/images/3.jpg) 0 0/100% auto no-repeat;
     height: 250px;
     position: relative;
   }
@@ -659,6 +661,7 @@ body {
 @media screen and (max-width: 478px) {
   .slaid1 {
     margin-top: 60px;
+    background: url(../slaid1/images/4.jpg) 0 0/100% auto no-repeat;
     height: 180px;
     position: relative;
   }
