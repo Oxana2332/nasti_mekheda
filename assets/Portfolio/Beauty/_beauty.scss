@@ -29,21 +29,36 @@
 
 .beautyslider .slick-arrow {
 	position: absolute;
+	border: 1px;
+	border-radius: 8px;
 	top: 50%;
 	z-index: 10;
 	font-size: 0;
 	width: 30px;
 	height: 50px;
+	box-shadow: 0px 0px 34px 9px rgba(1, 8, 13, 0.2);
 }
 
 .beautyslider .slick-arrow.slick-prev {
 	left: 0;
-	background: url(../image/left.svg) 0 0/100% no-repeat;
+	background: 0 0/100% no-repeat;
+	font-size: 1.4em;
+	font-weight: bolder;
 }
 
 .beautyslider .slick-arrow.slick-next {
 	right: 0;
-	background: url(../image/right.svg) 0 0/100% no-repeat;
+	background: 0 0/100% no-repeat;
+	font-size: 1.4em;
+	font-weight: bolder;
+}
+
+.beautyslider .slick-arrow.slick-prev:hover {
+	border: solid 2px;
+}
+
+.beautyslider .slick-arrow.slick-next:hover {
+	border: solid 2px;
 }
 
 .beauty img {
