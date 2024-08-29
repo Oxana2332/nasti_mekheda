@@ -1294,6 +1294,9 @@ body {
     margin-top: 20px;
     margin-left: 20px;
   }
+  .brideslider .slick-arrow {
+    display: none;
+  }
   .bride {
     margin-top: 120px;
     display: flex;
