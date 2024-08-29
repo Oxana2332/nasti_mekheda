@@ -31,7 +31,7 @@
 .brideslider .slick-arrow {
 	position: absolute;
 	text-align: center;
-	text-decoration: none;
+	color: black;
 	border: 1px;
 	border-radius: 8px;
 	top: 50%;
@@ -85,10 +85,6 @@
 		font-size: $linkMsize;
 		margin-top: $marginM1023-top;
 		margin-left: 20px;
-	}
-
-	.brideslider .slick-arrow {
-		display: none;
 	}
 
 	.bride {
