@@ -29,27 +29,7 @@ $(document).ready(function () {
 	});
 });
 
-$(document).ready(function () {
-	$('.beautyslider').slick({
-		slidesToShow: 3,
-		speed: 100,
-		easing: 'ease',
-		draggable: false,
-		swipe: true,
-		touchTheshold: 10,
-		adaptiveHeight: true,
-		centerMode: true,
-		responsive: [
-			{
-				breakpoint: 468,
-				settings: {
-					slidesToShow: 1,
-				},
-			},
-		],
-	});
-});
-
+//brideslider
 $(document).ready(function () {
 	$('.brideslider').slick({
 		slidesToShow: 1,
@@ -61,6 +41,35 @@ $(document).ready(function () {
 		adaptiveHeight: true,
 	});
 });
+
+//beautyslider
+/* Индекс слайда по умолчанию */
+var slideIndex = 1;
+showSlides(slideIndex);
+/* Устанавливает текущий слайд */
+function currentSlide(n) {
+	showSlides((slideIndex = n));
+}
+/* Основная функция сладера */
+function showSlides(n) {
+	var i;
+	var slides = document.getElementsByClassName('beautyslider__item');
+	var dots = document.getElementsByClassName('slider-dots_item');
+	if (n > slides.length) {
+		slideIndex = 1;
+	}
+	if (n < 1) {
+		slideIndex = slides.length;
+	}
+	for (i = 0; i < slides.length; i++) {
+		slides[i].style.display = 'none';
+	}
+	for (i = 0; i < dots.length; i++) {
+		dots[i].className = dots[i].className.replace(' toactive', '');
+	}
+	slides[slideIndex - 1].style.display = 'block';
+	dots[slideIndex - 1].className += ' toactive';
+}
 
 //backstageslider
 function onSelectImage(url) {

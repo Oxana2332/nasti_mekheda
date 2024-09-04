@@ -1,70 +1,67 @@
 .beauty {
+	min-height: calc(100vh - 225px);
 	margin-top: 120px;
 	margin-right: 130px;
 	margin-left: 130px;
 }
 
 .beautyslider {
+	width: 500px;
+	height: auto;
+	margin: auto;
+}
+
+/* Картинка маштабируется по отношению к родительскому элементу */
+.beautyslider .beautyslider__item img {
+	object-fit: cover;
 	width: 100%;
-	position: relative;
 }
 
-.beautyslider__item {
+/* Кружочки */
+.slider-dots {
 	text-align: center;
-	transition: all 0.5s ease 0s;
-	opacity: 0.3;
+}
+.slider-dots_item {
+	cursor: pointer;
+	height: 10px;
+	width: 10px;
+	margin: 0 2px;
+	background-color: rgba(0, 0, 0, 0.144);
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
 }
 
-.beautyslider__item.slick-center {
-	opacity: 1;
+.toactive,
+.slider-dots_item:hover {
+	background-color: rgba(88, 88, 88, 0.911);
 }
 
-.slick-track {
-	display: flex;
+/* Анимация слайдов */
+
+.slider .beautyslider__item {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
 }
 
-.slick-list {
-	overflow: hidden;
+@-webkit-keyframes fade {
+	from {
+		opacity: 0.4;
+	}
+	to {
+		opacity: 1;
+	}
 }
 
-.beautyslider .slick-arrow {
-	position: absolute;
-	border: 1px;
-	border-radius: 8px;
-	color: black;
-	top: 50%;
-	z-index: 10;
-	font-size: 0;
-	width: 30px;
-	height: 50px;
-	box-shadow: 0px 0px 34px 9px rgba(1, 8, 13, 0.2);
-}
-
-.beautyslider .slick-arrow.slick-prev {
-	left: 0;
-	background: 0 0/100% no-repeat;
-	font-size: 1.4em;
-	font-weight: bolder;
-}
-
-.beautyslider .slick-arrow.slick-next {
-	right: 0;
-	background: 0 0/100% no-repeat;
-	font-size: 1.4em;
-	font-weight: bolder;
-}
-
-.beautyslider .slick-arrow.slick-prev:hover {
-	border: solid 2px;
-}
-
-.beautyslider .slick-arrow.slick-next:hover {
-	border: solid 2px;
-}
-
-.beauty img {
-	height: 80vh;
-	width: auto;
+@keyframes fade {
+	from {
+		opacity: 0.4;
+	}
+	to {
+		opacity: 1;
+	}
 }
 
 /*ссылка назад*/
@@ -77,11 +74,49 @@
 	margin-top: $margin-top;
 }
 
-@media screen and (max-width: 1279px) {
+@-webkit-keyframes fade {
+	from {
+		opacity: 0.4;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes fade {
+	from {
+		opacity: 0.4;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@media screen and (min-width: 321px) and (max-width: 759px) {
 	.beauty {
-		margin-top: 80px;
-		margin-right: 1px;
-		margin-left: 1px;
+		margin-right: 10px;
+		margin-left: 10px;
+	}
+
+	.beautyslider {
+		width: 300px;
+	}
+
+	/*ссылка назад*/
+	.link__backPortfolio {
+		font-size: $linkMsize;
+		margin-top: $marginM1023-top;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.beauty {
+		margin-right: 10px;
+		margin-left: 10px;
+	}
+
+	.beautyslider {
+		width: 290px;
 	}
 
 	/*ссылка назад*/
