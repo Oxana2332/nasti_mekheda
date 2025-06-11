@@ -482,11 +482,21 @@ body {
   }
   .header__logo_desctop img {
     max-width: 100%;
+    margin: 0 35%;
+  }
+  .header__list_left {
+    flex: 0 0 30%;
+    justify-content: start;
+  }
+  .header__list_right {
+    flex: 0 0 40%;
+    justify-content: end;
   }
   .header__menu {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    width: 80%;
     font-family: "Montserrat Light";
     font-size: 0.85em;
     letter-spacing: 1px;
@@ -2661,14 +2671,15 @@ video {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 100%;
+  height: 99%;
+  width: 99%;
 }
 
 .footer__text {
   text-decoration: none;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: #FFFFFF;
+  color: #ffffff;
   font-family: "L&C";
   font-size: 18px;
 }
@@ -2685,7 +2696,7 @@ video {
 
 .footer__link_style a {
   padding-right: 20px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .footer__button {
